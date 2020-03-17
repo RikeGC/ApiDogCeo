@@ -1,0 +1,47 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Liu Jian Mao Cao', cursive;
+font-family: 'Bellota', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(250, 226, 198);
+}
+
+.cont{
+    margin: auto;
+    min-width: 50%;
+    max-width: 560px;
+    padding: 10px;
+    background-color: rgb(252, 244, 235);
+}
+
+.escolha{
+
+}
+
+.name-img{
+    min-height: 400px;
+    text-align: center;
+}
+
+.name h2{
+    text-align: center;
+}
+
+.demo-image{
+    text-align: center;
+}
+
+.demo-image img{
+    height: 300px;
+}
+
+select, input{
+    width: 100%;
+}

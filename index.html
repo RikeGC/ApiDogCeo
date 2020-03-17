@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Bitter|Liu+Jian+Mao+Cao|Lobster|Raleway&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="cont">
+    <div class="escolha">
+    <!-- <input type="text" name="txtDog" id="txtDog"> -->
+    <label for="Nome-Dog">Nome do Cachorro</label>
+    <br>
+    <input type="nome-dog" name="nome-dog" id="nome-dog">
+    <br>
+    <label for="color-font">Cor da Fonte</label>
+    <br>
+    <select name="color-font" id="color-font" class="color-font">
+        <option value="" >Selecione Cor</option>
+        <option value="black" style="color: black;">Preto</option>
+        <option value="red" style="color: red;">Vermelho</option>
+        <option value="blue" style="color: blue;">Azul</option>
+        <option value="green" style="color: green;">Verde</option>
+        <option value="yellow" style="color: yellow;">Amarelo</option>
+    </select>
+    <br>
+    <label for="family-font">Fonte para o Nome</label>
+    <br>
+    <select name="family-font" id="family-font">
+        <option value="" >Selecione Fonte</option>
+        <option value="Raleway" style="font-family: 'Raleway', sans-serif;">Raleway</option>
+        <option value="Liu" style="font-family: 'Liu Jian Mao Cao', cursive;">Liu Jian Mao Cao</option>
+        <option value="Bellota" style="font-family: 'Bellota', cursive;">Bellota</option>
+        <option value="Bitter" style="font-family: 'Bitter', serif;">Bitter</option>
+        <option value="Lobster" style="font-family: 'Lobster', cursive;">Lobster</option>
+    </select>
+    <br>
+    <!-- <img id="imgDog" src="" alt="" style="height: 150px;"> -->
+    <label for="dog-selector">Raça do Cachorro</label>
+    <br>
+    <select class="dog-selector" name="dog-selector" id="dog-selector">
+        <option value="">Selecione Raça</option>
+    </select>
+    <br>
+    <br>
+    <button id="btnSalvar">Salvar</button>
+    <br>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="name-img">
+    <!-- <label for="name-dog" id="name-dog"></label> -->
+    <div class="name"><h2 class="name-dog"></h2></div>
+    <div class="demo-image"><img class="img-dog" src="" alt=""></div>
+    </div>
+    </div>
+    
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/dogs1.js"></script>
+<script src="js/dogs2.js"></script>
+<script src="js/name-dog.js"></script>
+<script src="js/font-color-family.js"></script>
+<script src="js/localstorage.js"></script>
+
+</html>
